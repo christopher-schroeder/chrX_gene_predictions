@@ -1,0 +1,12 @@
+{'C': [0.5, 1, 2, 3], 'gamma': ['scale', 'auto'], 'shrinking': [True, False], 'decision_function_shape': ['ovo', 'ovr']}
+SVC	Matthews Correlation: 0.686 (0.036)
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Fitting 5 folds for each of 32 candidates, totalling 160 fits

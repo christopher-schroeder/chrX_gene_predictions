@@ -1,0 +1,6 @@
+loading data
+filling NA
+Set method to GridSearchCV
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:    4.8s remaining:    3.2s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:    7.1s finished

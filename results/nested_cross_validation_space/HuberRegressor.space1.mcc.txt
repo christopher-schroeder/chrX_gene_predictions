@@ -1,0 +1,11 @@
+{'epsilon': [1.0, 1.11, 1.23, 1.35, 1.47, 1.59]}
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits

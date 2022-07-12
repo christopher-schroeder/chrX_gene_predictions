@@ -1,0 +1,12 @@
+{'max_samples': [0.25, 0.5, 0.75, 1.0], 'max_features': [0.25, 0.5, 0.75, 1.0], 'bootstrap': [True, False], 'bootstrap_features': [True, False]}
+BaggingClassifier Matthews Correlation: 0.714 (0.030)
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits
+Fitting 5 folds for each of 64 candidates, totalling 320 fits

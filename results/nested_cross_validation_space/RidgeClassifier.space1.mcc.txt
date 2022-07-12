@@ -1,0 +1,12 @@
+{'alpha': [1, 4, 16, 64, 256, 1024], 'class_weight': [None, 'balanced']}
+RidgeClassifier	Matthews Correlation: 0.671 (0.031)
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits

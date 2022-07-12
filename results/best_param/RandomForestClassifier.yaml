@@ -1,0 +1,48 @@
+RandomForestClassifier:
+  class: RandomForestClassifier
+  mean_fit_time: 4.876483392715454
+  mean_score_time: 0.0316478729248046
+  mean_test_score: 0.7448265314102173
+  module: sklearn.ensemble
+  param_bootstrap: false
+  param_ccp_alpha: 0.0
+  param_class_weight: balanced
+  param_criterion: entropy
+  params:
+    random_state: 1094795585
+  params_best:
+    bootstrap: false
+    ccp_alpha: 0
+    class_weight: balanced
+    criterion: entropy
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      bootstrap:
+      - true
+      - false
+      ccp_alpha:
+      - 0
+      - 0.005
+      - 0.01
+      - 0.015
+      - 0.2
+      - 0.025
+      - 0.03
+      - 0.035
+      class_weight:
+      - balanced
+      - balanced_subsample
+      criterion:
+      - gini
+      - entropy
+      - log_loss
+  split0_test_score: 0.7612990140914917
+  split1_test_score: 0.7491859793663025
+  split2_test_score: 0.7577078938484192
+  split3_test_score: 0.7419925332069397
+  split4_test_score: 0.7139472365379333
+  std_fit_time: 1.023051221013475
+  std_score_time: 0.0037002258305667
+  std_test_score: 0.0168394736738216

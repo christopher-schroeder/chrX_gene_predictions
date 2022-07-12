@@ -1,0 +1,12 @@
+{'var_smoothing': [1e-10, 1e-09, 1e-08, 1e-07]}
+GaussianNB Matthews Correlation: 0.414 (0.086)
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits

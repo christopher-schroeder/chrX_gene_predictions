@@ -1,0 +1,17 @@
+NearestCentroid:
+  class: NearestCentroid
+  mean_fit_time: 0.0033377170562744
+  mean_score_time: 0.0006793022155761
+  mean_test_score: 0.6130414724349975
+  module: sklearn.neighbors
+  params: '{}'
+  params_best: {}
+  rank_test_score: 1
+  split0_test_score: 0.6251481175422668
+  split1_test_score: 0.5828052759170532
+  split2_test_score: 0.6242144703865051
+  split3_test_score: 0.6323773860931396
+  split4_test_score: 0.600662112236023
+  std_fit_time: 0.0003640528697425
+  std_score_time: 0.0001075812051905
+  std_test_score: 0.0185081627115205

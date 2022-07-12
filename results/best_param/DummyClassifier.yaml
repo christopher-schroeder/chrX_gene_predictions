@@ -1,0 +1,31 @@
+DummyClassifier:
+  class: DummyClassifier
+  mean_fit_time: 0.0057579517364501
+  mean_score_time: 0.001216173171997
+  mean_test_score: 0.0
+  module: sklearn.dummy
+  param_strategy: most_frequent
+  params:
+    constant: 1.0
+    random_state: 1094795585
+  params_best:
+    constant: 1.0
+    random_state: 1094795585
+    strategy: most_frequent
+  rank_test_score: 1
+  space:
+    space1:
+      strategy:
+      - most_frequent
+      - prior
+      - stratified
+      - uniform
+      - constant
+  split0_test_score: 0.0
+  split1_test_score: 0.0
+  split2_test_score: 0.0
+  split3_test_score: 0.0
+  split4_test_score: 0.0
+  std_fit_time: 0.0041629418653968
+  std_score_time: 0.0001732552233265
+  std_test_score: 0.0

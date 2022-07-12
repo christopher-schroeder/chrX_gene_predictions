@@ -1,0 +1,66 @@
+DecisionTreeClassifier:
+  class: DecisionTreeClassifier
+  mean_fit_time: 0.0644428730010986
+  mean_score_time: 0.0007955074310302
+  mean_test_score: 0.6087517976760864
+  module: sklearn.tree
+  param_ccp_alpha: 0.03
+  param_criterion: entropy
+  param_max_features: sqrt
+  param_min_impurity_decrease: 0.0
+  param_min_samples_leaf: 1
+  param_min_samples_split: 2
+  param_splitter: best
+  params:
+    random_state: 1094795585
+  params_best:
+    ccp_alpha: 0.03
+    criterion: entropy
+    max_features: sqrt
+    min_impurity_decrease: 0.0
+    min_samples_leaf: 1
+    min_samples_split: 2
+    random_state: 1094795585
+    splitter: best
+  rank_test_score: 1
+  space:
+    space1:
+      ccp_alpha:
+      - 0.0
+      - 0.005
+      - 0.01
+      - 0.015
+      - 0.2
+      - 0.025
+      - 0.03
+      - 0.035
+      criterion:
+      - gini
+      - entropy
+      - log_loss
+      max_features:
+      - sqrt
+      - log2
+      min_impurity_decrease:
+      - 0.0
+      - 0.1
+      - 0.2
+      min_samples_leaf:
+      - 1
+      - 2
+      - 3
+      min_samples_split:
+      - 2
+      - 3
+      - 4
+      splitter:
+      - best
+      - random
+  split0_test_score: 0.6306549906730652
+  split1_test_score: 0.5388017296791077
+  split2_test_score: 0.6214371919631958
+  split3_test_score: 0.6298545598983765
+  split4_test_score: 0.623010516166687
+  std_fit_time: 0.0059548227255433
+  std_score_time: 2.478250748330848e-05
+  std_test_score: 0.035163386443484

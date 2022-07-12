@@ -1,0 +1,12 @@
+{'reg_param': [0, 0.2, 0.4, 0.6, 0.8, 1.0]}
+QuadraticDiscriminantAnalysis	Matthews Correlation: 0.587 (0.039)
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits
+Fitting 5 folds for each of 6 candidates, totalling 30 fits

@@ -1,0 +1,12 @@
+{'loss': ['squared_error', 'huber', 'epsilon_insensitive', 'squared_epsilon_insensitive'], 'penalty': ['l1', 'l2', 'elasticnet'], 'alpha': [0.0001, 0.0001, 0.001, 0.01], 'learning_rate': ['constant', 'invscaling', 'optimal', 'adaptive'], 'power_t': [0.12, 0.25, 0.5]}
+SGDRegressor Matthews Correlation: 0.683 (0.034)
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits

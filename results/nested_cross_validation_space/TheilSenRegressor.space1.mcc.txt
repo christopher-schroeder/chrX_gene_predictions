@@ -1,0 +1,12 @@
+{'max_subpopulation': [100000.0, 10000.0, 1000.0, 100.0]}
+TheilSenRegressor	Matthews Correlation: 0.531 (0.041)
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits
+Fitting 5 folds for each of 4 candidates, totalling 20 fits

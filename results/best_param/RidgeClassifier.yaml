@@ -1,0 +1,35 @@
+RidgeClassifier:
+  class: RidgeClassifier
+  mean_fit_time: 0.0492423057556152
+  mean_score_time: 0.0038152694702148
+  mean_test_score: 0.6738027215003968
+  module: sklearn.linear_model
+  param_alpha: 1
+  param_class_weight: balanced
+  params:
+    random_state: 1094795585
+  params_best:
+    alpha: 1
+    class_weight: balanced
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      alpha:
+      - 1
+      - 4
+      - 16
+      - 64
+      - 256
+      - 1024
+      class_weight:
+      - null
+      - balanced
+  split0_test_score: 0.6813005805015564
+  split1_test_score: 0.6726011037826538
+  split2_test_score: 0.6531982421875
+  split3_test_score: 0.7088330388069153
+  split4_test_score: 0.6530806422233582
+  std_fit_time: 0.0076293706199152
+  std_score_time: 0.001554132568385
+  std_test_score: 0.0206820407245305

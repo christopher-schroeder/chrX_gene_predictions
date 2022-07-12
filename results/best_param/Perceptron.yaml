@@ -1,0 +1,40 @@
+Perceptron:
+  class: Perceptron
+  mean_fit_time: 0.2156126976013183
+  mean_score_time: 0.1383970737457275
+  mean_test_score: 0.601091492176056
+  module: sklearn.linear_model
+  param_alpha: 0.0001
+  param_class_weight: balanced
+  param_penalty: l1
+  params:
+    max_iter: 5000
+  params_best:
+    alpha: 0.0001
+    class_weight: balanced
+    max_iter: 5000
+    penalty: l1
+  rank_test_score: 1
+  space:
+    space1:
+      alpha:
+      - 0.0001
+      - 0.0001
+      - 0.001
+      - 0.01
+      class_weight:
+      - null
+      - balanced
+      penalty:
+      - l1
+      - l2
+      - elasticnet
+      - null
+  split0_test_score: 0.5202754735946655
+  split1_test_score: 0.7046427130699158
+  split2_test_score: 0.6294280886650085
+  split3_test_score: 0.5847973823547363
+  split4_test_score: 0.5663138031959534
+  std_fit_time: 0.1777586175519654
+  std_score_time: 0.1013932437100666
+  std_test_score: 0.0625012521061783

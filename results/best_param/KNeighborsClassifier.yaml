@@ -1,0 +1,49 @@
+KNeighborsClassifier:
+  class: KNeighborsClassifier
+  mean_fit_time: 0.0255998134613037
+  mean_score_time: 10.246084785461424
+  mean_test_score: 0.6513651967048645
+  module: sklearn.neighbors
+  param_algorithm: kd_tree
+  param_leaf_size: 50
+  param_n_neighbors: 8
+  param_p: 3
+  params: '{''p'': 3, ''n_neighbors'': 8, ''leaf_size'': 50, ''algorithm'': ''kd_tree''}'
+  params_best:
+    algorithm: kd_tree
+    leaf_size: 50
+    n_neighbors: 8
+    p: 3
+  rank_test_score: 1
+  space:
+    space1:
+      algorithm:
+      - auto
+      - ball_tree
+      - kd_tree
+      - brute
+      leaf_size:
+      - 10
+      - 20
+      - 30
+      - 40
+      - 50
+      n_neighbors:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      p:
+      - 1
+      - 2
+      - 3
+  split0_test_score: 0.6612849235534668
+  split1_test_score: 0.6546225547790527
+  split2_test_score: 0.650733470916748
+  split3_test_score: 0.6567100882530212
+  split4_test_score: 0.6334749460220337
+  std_fit_time: 0.0091635612332438
+  std_score_time: 3.91367400882961
+  std_test_score: 0.0095712002904736

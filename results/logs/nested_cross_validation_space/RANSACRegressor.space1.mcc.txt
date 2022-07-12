@@ -1,0 +1,14 @@
+loading data
+filling NA
+perform cross validation
+[Parallel(n_jobs=10)]: Using backend LokyBackend with 10 concurrent workers.
+/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+[Parallel(n_jobs=10)]: Done   2 out of  10 | elapsed:    5.1s remaining:   20.3s
+[Parallel(n_jobs=10)]: Done  10 out of  10 | elapsed:    5.8s finished

@@ -1,0 +1,12 @@
+{'penalty': ['l1'], 'loss': ['squared_hinge'], 'dual': [False], 'intercept_scaling': [0.5, 1, 1.5]}
+LinearSVC Matthews Correlation: 0.691 (0.029)
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits

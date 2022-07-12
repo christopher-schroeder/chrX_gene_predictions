@@ -1,0 +1,56 @@
+ARDRegression:
+  class: ARDRegression
+  mean_fit_time: 5.219063663482666
+  mean_score_time: 0.0015403747558593
+  mean_test_score: 0.6731944972214385
+  module: sklearn.linear_model
+  param_alpha_1: 1.0e-05
+  param_alpha_2: 0.001
+  param_lambda_1: 1.0e-05
+  param_lambda_2: 0.001
+  params: 
+    lambda_2: 0.001,
+    lambda_1: 1e-05,
+    alpha_2: 0.001,
+    alpha_1: 1e-05'
+  params_best:
+    alpha_1: 1.0e-05
+    alpha_2: 0.001
+    lambda_1: 1.0e-05
+    lambda_2: 0.001
+  rank_test_score: 1
+  is_regression: true
+  space:
+    space1:
+      alpha_1:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      alpha_2:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      lambda_1:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      lambda_2:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+  split0_test_score: 0.7196089291091122
+  split1_test_score: 0.6806274194090739
+  split2_test_score: 0.6693726715653402
+  split3_test_score: 0.6618589640558497
+  split4_test_score: 0.6345045019678169
+  std_fit_time: 3.8312121532669376
+  std_score_time: 0.0006942072608767
+  std_test_score: 0.0277473033497743

@@ -1,0 +1,12 @@
+{'n_neighbors': [3, 4, 5, 6, 7, 8], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': [10, 20, 30, 40, 50], 'p': [1, 2, 3]}
+KNeighborsClassifier Matthews Correlation: 0.624 (0.030)
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits

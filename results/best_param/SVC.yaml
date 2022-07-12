@@ -1,0 +1,42 @@
+SVC:
+  class: SVC
+  mean_fit_time: 0.7123026371002197
+  mean_score_time: 0.1793590068817138
+  mean_test_score: 0.6818955302238464
+  module: sklearn.svm
+  param_C: 3.0
+  param_decision_function_shape: ovr
+  param_gamma: scale
+  param_shrinking: false
+  params:
+    gamma: 2
+  params_best:
+    C: 3
+    decision_function_shape: ovr
+    gamma: 2
+    shrinking: false
+  rank_test_score: 1
+  space:
+    space1:
+      C:
+      - 0.5
+      - 1
+      - 2
+      - 3
+      decision_function_shape:
+      - ovo
+      - ovr
+      gamma:
+      - scale
+      - auto
+      shrinking:
+      - true
+      - false
+  split0_test_score: 0.6980425119400024
+  split1_test_score: 0.6870760917663574
+  split2_test_score: 0.6725764274597168
+  split3_test_score: 0.6878027319908142
+  split4_test_score: 0.6639798879623413
+  std_fit_time: 0.0620462901490168
+  std_score_time: 0.0112508611441135
+  std_test_score: 0.0120853149162438

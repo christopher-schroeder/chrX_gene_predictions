@@ -1,0 +1,12 @@
+{'C': [1, 4, 16, 64, 256, 1024], 'loss': ['hinge', 'squared_hinge']}
+PassiveAgressiveClassifier	Matthews Correlation: 0.560 (0.109)
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+Fitting 5 folds for each of 12 candidates, totalling 60 fits

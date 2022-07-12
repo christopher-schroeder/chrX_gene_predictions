@@ -1,0 +1,6 @@
+loading data
+filling NA
+perform cross validation
+[Parallel(n_jobs=10)]: Using backend LokyBackend with 10 concurrent workers.
+[Parallel(n_jobs=10)]: Done   2 out of  10 | elapsed:    1.1s remaining:    4.5s
+[Parallel(n_jobs=10)]: Done  10 out of  10 | elapsed:    1.5s finished

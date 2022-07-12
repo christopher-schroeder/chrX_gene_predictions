@@ -1,0 +1,33 @@
+PassiveAggressiveClassifier:
+  class: PassiveAggressiveClassifier
+  mean_fit_time: 0.0819057464599609
+  mean_score_time: 0.1094457149505615
+  mean_test_score: 0.6661503076553345
+  module: sklearn.linear_model
+  param_C: 1
+  param_loss: squared_hinge
+  params: '{''C'': 1, ''loss'': ''squared_hinge''}'
+  params_best:
+    C: 1
+    loss: squared_hinge
+  rank_test_score: 1
+  space:
+    space1:
+      C:
+      - 1
+      - 4
+      - 16
+      - 64
+      - 256
+      - 1024
+      loss:
+      - hinge
+      - squared_hinge
+  split0_test_score: 0.7070062160491943
+  split1_test_score: 0.6535040736198425
+  split2_test_score: 0.6327587366104126
+  split3_test_score: 0.6696396470069885
+  split4_test_score: 0.6678428649902344
+  std_fit_time: 0.0282589067950624
+  std_score_time: 0.0335529353926222
+  std_test_score: 0.0243276375435794

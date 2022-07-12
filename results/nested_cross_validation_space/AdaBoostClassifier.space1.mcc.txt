@@ -1,0 +1,12 @@
+{'learning_rate': [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75], 'algorithm': ['SAMME', 'SAMME.R']}
+AdaBoostClassifier Matthews Correlation: 0.752 (0.039)
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits
+Fitting 5 folds for each of 14 candidates, totalling 70 fits

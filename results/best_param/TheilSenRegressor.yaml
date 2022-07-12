@@ -1,0 +1,29 @@
+TheilSenRegressor:
+  class: TheilSenRegressor
+  mean_fit_time: 189.27754511833191
+  mean_score_time: 0.0018828392028808
+  mean_test_score: 0.5236791255400663
+  module: sklearn.linear_model
+  param_max_subpopulation: 100000
+  params:
+    random_state: 1094795585
+  params_best:
+    max_subpopulation: 100000
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      max_subpopulation:
+      - 100000
+      - 10000
+      - 1000
+      - 100
+  split0_test_score: 0.5058464827768345
+  split1_test_score: 0.4652009750415376
+  split2_test_score: 0.5671565131394767
+  split3_test_score: 0.5440923324888635
+  split4_test_score: 0.5360993242536195
+  std_fit_time: 3.02905646090465
+  std_score_time: 0.0003690850947997
+  std_test_score: 0.035210625726157
+  is_regression: true

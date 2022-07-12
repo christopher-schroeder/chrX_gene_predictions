@@ -1,0 +1,52 @@
+BayesianRidge:
+  class: BayesianRidge
+  mean_fit_time: 1.3361385345458985
+  mean_score_time: 0.0464827060699462
+  mean_test_score: 0.6731067657234469
+  module: sklearn.linear_model
+  param_alpha_1: 0.0001
+  param_alpha_2: 1.0e-07
+  param_lambda_1: 1.0e-06
+  param_lambda_2: 1.0e-05
+  params: '{''lambda_2'': 1e-05, ''lambda_1'': 1e-06, ''alpha_2'': 1e-07, ''alpha_1'':
+    0.0001}'
+  params_best:
+    alpha_1: 0.0001
+    alpha_2: 1.0e-07
+    lambda_1: 1.0e-06
+    lambda_2: 1.0e-05
+  rank_test_score: 1
+  space:
+    space1:
+      alpha_1:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      alpha_2:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      lambda_1:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+      lambda_2:
+      - 1.0e-07
+      - 1.0e-06
+      - 1.0e-05
+      - 0.0001
+      - 0.001
+  split0_test_score: 0.6994798346314987
+  split1_test_score: 0.6742343276233609
+  split2_test_score: 0.6695927923364458
+  split3_test_score: 0.6762074403586754
+  split4_test_score: 0.6460194336672541
+  std_fit_time: 0.3703191665937128
+  std_score_time: 0.0348416135877007
+  std_test_score: 0.0170440365497586

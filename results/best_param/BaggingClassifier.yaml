@@ -1,0 +1,45 @@
+BaggingClassifier:
+  class: BaggingClassifier
+  mean_fit_time: 1.1242743968963622
+  mean_score_time: 0.0088782787322998
+  mean_test_score: 0.7267066955566406
+  module: sklearn.ensemble
+  param_bootstrap: false
+  param_bootstrap_features: false
+  param_max_features: 1.0
+  param_max_samples: 0.25
+  params:
+    random_state: 1094795585
+  params_best:
+    bootstrap: false
+    bootstrap_features: false
+    max_features: 1.0
+    max_samples: 0.25
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      bootstrap:
+      - true
+      - false
+      bootstrap_features:
+      - true
+      - false
+      max_features:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1.0
+      max_samples:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1.0
+  split0_test_score: 0.7274066805839539
+  split1_test_score: 0.7428569793701172
+  split2_test_score: 0.7098014950752258
+  split3_test_score: 0.72225421667099
+  split4_test_score: 0.7312141060829163
+  std_fit_time: 0.2065380007305504
+  std_score_time: 0.0051605290673203
+  std_test_score: 0.0108374237482039

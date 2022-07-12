@@ -1,0 +1,6 @@
+loading data
+filling NA
+Set method to RandomizedSearchCV
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:   53.6s remaining:   35.7s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:  1.8min finished

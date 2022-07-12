@@ -1,0 +1,12 @@
+{'hidden_layer_sizes': [(16, 16), (64, 32), (64, 16), (32, 32), (32, 16), (64, 64), (64, 64, 16), (64, 32, 16), (64, 64, 32), (64, 32, 32), (32, 16, 16), (64, 16, 16), (32, 32, 16)], 'activation': ['identity', 'logistic', 'tanh', 'relu'], 'solver': ['lbfgs', 'sgd', 'adam'], 'learning_rate': ['constant', 'invscaling', 'adaptive'], 'learning_rate_init': [0.001, 0.0001, 0.01], 'power_t': [0.4, 0.5, 0.6], 'momentum': [0.7, 0.8, 0.9, 1.0], 'beta_1': [0.8, 0.9, 0.999], 'beta_2': [0.8, 0.9, 0.999], 'epsilon': [1e-09, 1e-08, 1e-07]}
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+MLPClassifier Matthews Correlation: 0.699 (0.030)
+Fitting 5 folds for each of 100 candidates, totalling 500 fits
+Fitting 5 folds for each of 100 candidates, totalling 500 fits

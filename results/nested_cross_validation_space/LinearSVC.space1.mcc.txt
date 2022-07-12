@@ -1,0 +1,11 @@
+{'penalty': ['l2'], 'loss': ['hinge'], 'dual': [True], 'intercept_scaling': [0.5, 1, 1.5]}
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits
+Fitting 5 folds for each of 3 candidates, totalling 15 fits

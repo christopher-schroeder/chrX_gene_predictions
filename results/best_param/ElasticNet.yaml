@@ -1,0 +1,47 @@
+ElasticNet:
+  class: ElasticNet
+  mean_fit_time: 0.0446403503417968
+  mean_score_time: 0.002064561843872
+  mean_test_score: 0.6188186764717102
+  module: sklearn.linear_model
+  param_alpha: 0.0625
+  param_l1_ratio: 0.1
+  param_selection: cyclic
+  params:
+    max_iter: 10000
+    random_state: 1094795585
+  params_best:
+    alpha: 0.0625
+    l1_ratio: 0.1
+    max_iter: 10000
+    random_state: 1094795585
+    selection: cyclic
+  rank_test_score: 1
+  space:
+    space1:
+      alpha:
+      - 0.0625
+      - 0.25
+      - 1
+      - 4
+      - 16
+      - 64
+      - 256
+      - 1024
+      l1_ratio:
+      - 0.1
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1
+      selection:
+      - cyclic
+      - random
+  split0_test_score: 0.6432192325592041
+  split1_test_score: 0.5976788997650146
+  split2_test_score: 0.6397212743759155
+  split3_test_score: 0.6189131140708923
+  split4_test_score: 0.5945608615875244
+  std_fit_time: 0.0290235888070373
+  std_score_time: 0.0012656826182306
+  std_test_score: 0.0203354193325258

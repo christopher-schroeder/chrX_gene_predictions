@@ -1,0 +1,64 @@
+LinearSVC:
+  class: LinearSVC
+  mean_fit_time: 0.3558019161224365
+  mean_score_time: 0.0597546100616455
+  mean_test_score: 0.6857134103775024
+  module: sklearn.svm
+  param_dual: true
+  param_intercept_scaling: 1.5
+  param_loss: hinge
+  param_penalty: l2
+  params:
+    max_iter: 100000
+    random_state: 1094795585
+  params_best:
+    dual: true
+    intercept_scaling: 1.5
+    loss: hinge
+    max_iter: 100000
+    penalty: l2
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      dual:
+      - true
+      intercept_scaling:
+      - 0.5
+      - 1
+      - 1.5
+      loss:
+      - hinge
+      penalty:
+      - l2
+    space2:
+      dual:
+      - true
+      - false
+      intercept_scaling:
+      - 0.5
+      - 1
+      - 1.5
+      loss:
+      - squared_hinge
+      penalty:
+      - l2
+    space3:
+      dual:
+      - false
+      intercept_scaling:
+      - 0.5
+      - 1
+      - 1.5
+      loss:
+      - squared_hinge
+      penalty:
+      - l1
+  split0_test_score: 0.7052642107009888
+  split1_test_score: 0.6929316520690918
+  split2_test_score: 0.6819051504135132
+  split3_test_score: 0.6790857315063477
+  split4_test_score: 0.6693803071975708
+  std_fit_time: 0.1699987277421252
+  std_score_time: 0.036075023093272
+  std_test_score: 0.0123250641950928

@@ -1,0 +1,26 @@
+GaussianNB:
+  class: GaussianNB
+  mean_fit_time: 0.0118738174438476
+  mean_score_time: 0.024643850326538
+  mean_test_score: 0.4175387352705001
+  module: sklearn.naive_bayes
+  param_var_smoothing: 1.0e-10
+  params: '{''var_smoothing'': 1e-10}'
+  params_best:
+    var_smoothing: 1.0e-10
+  rank_test_score: 1
+  space:
+    space1:
+      var_smoothing:
+      - 1.0e-10
+      - 1.0e-09
+      - 1.0e-08
+      - 1.0e-07
+  split0_test_score: 0.3310427665710449
+  split1_test_score: 0.5587894916534424
+  split2_test_score: 0.2364466339349746
+  split3_test_score: 0.5228995680809021
+  split4_test_score: 0.4385152161121368
+  std_fit_time: 0.0047198493641505
+  std_score_time: 0.024603538717284
+  std_test_score: 0.1198070079629131

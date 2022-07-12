@@ -1,0 +1,36 @@
+AdaBoostClassifier:
+  class: AdaBoostClassifier
+  mean_fit_time: 4.783679580688476
+  mean_score_time: 0.0469461917877197
+  mean_test_score: 0.7554623246192932
+  module: sklearn.ensemble
+  param_algorithm: SAMME.R
+  param_learning_rate: 0.25
+  params:
+    random_state: 1094795585
+  params_best:
+    algorithm: SAMME.R
+    learning_rate: 0.25
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      algorithm:
+      - SAMME
+      - SAMME.R
+      learning_rate:
+      - 0.25
+      - 0.5
+      - 0.75
+      - 1.0
+      - 1.25
+      - 1.5
+      - 1.75
+  split0_test_score: 0.7921854257583618
+  split1_test_score: 0.7648420929908752
+  split2_test_score: 0.7413793206214905
+  split3_test_score: 0.744756817817688
+  split4_test_score: 0.7341479659080505
+  std_fit_time: 0.4695160676395653
+  std_score_time: 0.0108962360464464
+  std_test_score: 0.0209943181681504

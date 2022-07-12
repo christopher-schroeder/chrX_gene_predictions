@@ -1,0 +1,26 @@
+GaussianProcessClassifier:
+  class: GaussianProcessClassifier
+  mean_fit_time: 22.762531757354736
+  mean_score_time: 0.4037785530090332
+  mean_test_score: 0.6789932727813721
+  module: sklearn.gaussian_process
+  param_multi_class: one_vs_rest
+  params:
+    random_state: 1094795585
+  params_best:
+    multi_class: one_vs_rest
+    random_state: 1094795585
+  rank_test_score: 1
+  space:
+    space1:
+      multi_class:
+      - one_vs_rest
+      - one_vs_one
+  split0_test_score: 0.6846173405647278
+  split1_test_score: 0.6729610562324524
+  split2_test_score: 0.6791146993637085
+  split3_test_score: 0.6905535459518433
+  split4_test_score: 0.6677197217941284
+  std_fit_time: 1.2692548492407003
+  std_score_time: 0.1125738338561866
+  std_test_score: 0.0081088271282305

@@ -1,0 +1,173 @@
+ARDRegression	0.674	0.035	"lambda_2: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+lambda_1: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+alpha_2: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+alpha_1: 1e-07, 1e-06, 1e-05, 0.0001, 0.001"	"lambda_2: 0.001
+lambda_1: 1e-05
+alpha_2: 0.001
+alpha_1: 1e-05"
+AdaBoostClassifier	0.752	0.039	"random_state: 1094795585
+algorithm: SAMME, SAMME.R
+learning_rate: 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75"	"random_state: 1094795585
+algorithm: SAMME.R
+learning_rate: 0.25"
+BaggingClassifier	0.714	0.03	"random_state: 1094795585
+bootstrap: True, False
+bootstrap_features: True, False
+max_features: 0.25, 0.5, 0.75, 1.0
+max_samples: 0.25, 0.5, 0.75, 1.0"	"random_state: 1094795585
+bootstrap: False
+bootstrap_features: False
+max_features: 1.0
+max_samples: 0.25"
+BayesianRidge	0.673	0.029	"lambda_2: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+lambda_1: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+alpha_2: 1e-07, 1e-06, 1e-05, 0.0001, 0.001
+alpha_1: 1e-07, 1e-06, 1e-05, 0.0001, 0.001"	"lambda_2: 1e-05
+lambda_1: 1e-06
+alpha_2: 1e-07
+alpha_1: 0.0001"
+DecisionTreeClassifier	0.625	0.065	"random_state: 1094795585
+ccp_alpha: 0.0, 0.005, 0.01, 0.015, 0.2, 0.025, 0.03, 0.035
+criterion: gini, entropy, log_loss
+max_features: sqrt, log2
+min_impurity_decrease: 0.0, 0.1, 0.2
+min_samples_leaf: 1, 2, 3
+min_samples_split: 2, 3, 4
+splitter: best, random"	"random_state: 1094795585
+ccp_alpha: 0.03
+criterion: entropy
+max_features: sqrt
+min_impurity_decrease: 0.0
+min_samples_leaf: 1
+min_samples_split: 2
+splitter: best"
+DummyClassifier	-0.023	0.02	"constant: 1.0
+random_state: 1094795585
+strategy: most_frequent, prior, stratified, uniform, constant"	"constant: 1.0
+random_state: 1094795585
+strategy: most_frequent"
+ElasticNet	0.62	0.04	"max_iter: 10000
+random_state: 1094795585
+alpha: 0.0625, 0.25, 1, 4, 16, 64, 256, 1024
+l1_ratio: 0.1, 0.25, 0.5, 0.75, 1
+selection: cyclic, random"	"max_iter: 10000
+random_state: 1094795585
+alpha: 0.0625
+l1_ratio: 0.1
+selection: cyclic"
+GaussianNB	0.414	0.086	"var_smoothing: 1e-10, 1e-09, 1e-08, 1e-07"	"var_smoothing: 1e-10"
+GaussianProcessClassifier	0.683	0.037	"random_state: 1094795585
+multi_class: one_vs_rest, one_vs_one"	"random_state: 1094795585
+multi_class: one_vs_rest"
+KNeighborsClassifier	0.624	0.03	"p: 1, 2, 3
+n_neighbors: 3, 4, 5, 6, 7, 8
+leaf_size: 10, 20, 30, 40, 50
+algorithm: auto, ball_tree, kd_tree, brute"	"p: 3
+n_neighbors: 8
+leaf_size: 50
+algorithm: kd_tree"
+Lars	-0.003	0.105	"normalize: False
+random_state: 1094795585"	"normalize: False
+random_state: 1094795585"
+LinearRegression	0.678	0.032	"positive: False"	"positive: False"
+LinearSVC	0.693	0.031	"max_iter: 100000
+random_state: 1094795585
+dual: True
+intercept_scaling: 0.5, 1, 1.5
+loss: hinge
+penalty: l2
+
+max_iter: 100000
+random_state: 1094795585
+dual: True, False
+intercept_scaling: 0.5, 1, 1.5
+loss: squared_hinge
+penalty: l2
+
+max_iter: 100000
+random_state: 1094795585
+dual: False
+intercept_scaling: 0.5, 1, 1.5
+loss: squared_hinge
+penalty: l1"	"max_iter: 100000
+random_state: 1094795585
+dual: True
+intercept_scaling: 1.5
+loss: hinge
+penalty: l2"
+MLPClassifier	0.699	0.03	"max_iter: 5000
+n_iter_no_change: 10
+random_state: 1094795585
+activation: identity, logistic, tanh, relu
+beta_1: 0.8, 0.9, 0.999
+beta_2: 0.8, 0.9, 0.999
+epsilon: 1e-09, 1e-08, 1e-07
+hidden_layer_sizes: [16, 16], [64, 32], [64, 16], [32, 32], [32, 16], [64, 64], [64, 64, 16], [64, 32, 16], [64, 64, 32], [64, 32, 32], [32, 16, 16], [64, 16, 16], [32, 32, 16]
+learning_rate: constant, invscaling, adaptive
+learning_rate_init: 0.001, 0.0001, 0.01
+momentum: 0.7, 0.8, 0.9, 1.0
+power_t: 0.4, 0.5, 0.6
+solver: lbfgs, sgd, adam"	"max_iter: 5000
+n_iter_no_change: 10
+random_state: 1094795585
+activation: tanh
+beta_1: 0.8
+beta_2: 0.999
+epsilon: 1e-08
+hidden_layer_sizes: [64, 16]
+learning_rate: invscaling
+learning_rate_init: 0.0001
+momentum: 1.0
+power_t: 0.5
+solver: adam"
+NearestCentroid	0.613	0.051	""	""
+OrthogonalMatchingPursuit	0.645	0.036	"normalize: False"	"normalize: False"
+PassiveAggressiveClassifier	0.56	0.109	"C: 1, 4, 16, 64, 256, 1024
+loss: hinge, squared_hinge"	"C: 1
+loss: squared_hinge"
+Perceptron	0.525	0.108	"max_iter: 5000
+alpha: 0.0001, 0.0001, 0.001, 0.01
+class_weight: None, balanced
+penalty: l1, l2, elasticnet, None"	"max_iter: 5000
+alpha: 0.0001
+class_weight: balanced
+penalty: l1"
+QuadraticDiscriminantAnalysis	0.587	0.039	"reg_param: 0, 0.2, 0.4, 0.6, 0.8, 1.0"	"reg_param: 0.2"
+RANSACRegressor	0.221	0.182	"random_state: 1094795585"	"random_state: 1094795585"
+RandomForestClassifier	0.739	0.033	"random_state: 1094795585
+bootstrap: True, False
+ccp_alpha: 0, 0.005, 0.01, 0.015, 0.2, 0.025, 0.03, 0.035
+class_weight: balanced, balanced_subsample
+criterion: gini, entropy, log_loss"	"random_state: 1094795585
+bootstrap: False
+ccp_alpha: 0
+class_weight: balanced
+criterion: entropy"
+RidgeClassifier	0.671	0.031	"random_state: 1094795585
+alpha: 1, 4, 16, 64, 256, 1024
+class_weight: None, balanced"	"random_state: 1094795585
+alpha: 1
+class_weight: balanced"
+SGDRegressor	0.683	0.034	"max_iter: 20000
+random_state: 1094795585
+alpha: 0.0001, 0.0001, 0.001, 0.01
+learning_rate: constant, invscaling, optimal, adaptive
+loss: squared_error, huber, epsilon_insensitive, squared_epsilon_insensitive
+penalty: l1, l2, elasticnet
+power_t: 0.12, 0.25, 0.5"	"max_iter: 20000
+random_state: 1094795585
+alpha: 0.0001
+learning_rate: adaptive
+loss: squared_epsilon_insensitive
+penalty: l2
+power_t: 0.12"
+SVC	0.686	0.036	"gamma: scale, auto
+C: 0.5, 1, 2, 3
+decision_function_shape: ovo, ovr
+shrinking: True, False"	"gamma: 2
+C: 3
+decision_function_shape: ovr
+shrinking: False"
+TheilSenRegressor	0.531	0.041	"random_state: 1094795585
+max_subpopulation: 100000, 10000, 1000, 100"	"random_state: 1094795585
+max_subpopulation: 100000"

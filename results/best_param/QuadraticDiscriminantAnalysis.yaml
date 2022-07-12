@@ -1,0 +1,28 @@
+QuadraticDiscriminantAnalysis:
+  class: QuadraticDiscriminantAnalysis
+  mean_fit_time: 1.4897307395935058
+  mean_score_time: 0.0899738788604736
+  mean_test_score: 0.5911405086517334
+  module: sklearn.discriminant_analysis
+  param_reg_param: 0.2
+  params: '{''reg_param'': 0.2}'
+  params_best:
+    reg_param: 0.2
+  rank_test_score: 1
+  space:
+    space1:
+      reg_param:
+      - 0
+      - 0.2
+      - 0.4
+      - 0.6
+      - 0.8
+      - 1.0
+  split0_test_score: 0.5913214087486267
+  split1_test_score: 0.6129497289657593
+  split2_test_score: 0.5853071212768555
+  split3_test_score: 0.6029223203659058
+  split4_test_score: 0.5632019639015198
+  std_fit_time: 0.4308380491240887
+  std_score_time: 0.0503888755986225
+  std_test_score: 0.0169060734284697

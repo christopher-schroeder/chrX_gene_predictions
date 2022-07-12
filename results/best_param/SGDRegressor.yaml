@@ -1,0 +1,57 @@
+SGDRegressor:
+  class: SGDRegressor
+  mean_fit_time: 0.1964265346527099
+  mean_score_time: 0.0276430606842041
+  mean_test_score: 0.6814088196286265
+  module: sklearn.linear_model
+  param_alpha: 0.0001
+  param_learning_rate: adaptive
+  param_loss: squared_epsilon_insensitive
+  param_penalty: l2
+  param_power_t: 0.12
+  params:
+    max_iter: 20000
+    random_state: 1094795585
+  params_best:
+    alpha: 0.0001
+    learning_rate: adaptive
+    loss: squared_epsilon_insensitive
+    max_iter: 20000
+    penalty: l2
+    power_t: 0.12
+    random_state: 1094795585
+  rank_test_score: 1
+  is_regression: true
+  space:
+    space1:
+      alpha:
+      - 0.0001
+      - 0.0001
+      - 0.001
+      - 0.01
+      learning_rate:
+      - constant
+      - invscaling
+      - optimal
+      - adaptive
+      loss:
+      - squared_error
+      - huber
+      - epsilon_insensitive
+      - squared_epsilon_insensitive
+      penalty:
+      - l1
+      - l2
+      - elasticnet
+      power_t:
+      - 0.12
+      - 0.25
+      - 0.5
+  split0_test_score: 0.6994798346314987
+  split1_test_score: 0.703695506958398
+  split2_test_score: 0.676106666305382
+  split3_test_score: 0.6708540145180671
+  split4_test_score: 0.656908075729787
+  std_fit_time: 0.0481231075038517
+  std_score_time: 0.0088141215071316
+  std_test_score: 0.0176808439150999

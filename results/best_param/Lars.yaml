@@ -1,0 +1,21 @@
+Lars:
+  class: Lars
+  mean_fit_time: 0.193602705001831
+  mean_score_time: 0.0360538482666015
+  mean_test_score: .nan
+  module: sklearn.linear_model
+  params:
+    normalize: false
+    random_state: 1094795585
+  params_best:
+    normalize: false
+    random_state: 1094795585
+  rank_test_score: 1
+  split0_test_score: -0.1011804863810539
+  split1_test_score: -0.129333809018135
+  split2_test_score: 0.0123924799263477
+  split3_test_score: .nan
+  split4_test_score: -0.0074346461333334
+  std_fit_time: 0.0580510027731422
+  std_score_time: 0.02463658661466
+  std_test_score: .nan

@@ -1,0 +1,20 @@
+RANSACRegressor:
+  class: RANSACRegressor
+  mean_fit_time: 1.6430992603302002
+  mean_score_time: 0.0047552585601806
+  mean_test_score: 0.2874011337757111
+  module: sklearn.linear_model
+  params:
+    random_state: 1094795585
+  params_best:
+    random_state: 1094795585
+  rank_test_score: 1
+  split0_test_score: 0.1522838771343231
+  split1_test_score: 0.4139039218425751
+  split2_test_score: 0.2345914542675018
+  split3_test_score: 0.238519012928009
+  split4_test_score: 0.3977074027061462
+  std_fit_time: 0.1422384383995776
+  std_score_time: 0.0018544819204185
+  std_test_score: 0.101592741261044
+  is_regression: true
