@@ -21,7 +21,7 @@ def custom_redirection(fileobj):
         sys.stdout = old_stdout
         sys.stderr = old_stderr
 
-def get_data_full(filename="raw/nn_data.csv", fill_na=True, gene=None):
+def get_data_full(filename="raw/data.csv", fill_na=True, gene=None):
     print("loading data", file=sys.stderr)
     seed = 1094795585
     np.random.seed(seed)
@@ -49,7 +49,7 @@ def get_data_full(filename="raw/nn_data.csv", fill_na=True, gene=None):
     return X, df.columns
 
 
-def get_data(filename="raw/nn_data.csv", fill_na=True):
+def get_data(filename="raw/data.csv", fill_na=True):
     print("loading data", file=sys.stderr)
     seed = 1094795585
     np.random.seed(seed)
@@ -87,7 +87,7 @@ def importance(clf):
     return permutation_importance(clf, X, y, n_repeats=30, random_state=1094795585, n_jobs=80, scoring="neg_log_loss"), feature_names
 
 
-def shap(clf, gene, filename="raw/nn_data.csv"):
+def shap(clf, gene, filename="raw/data.csv"):
     X, feature_names = get_data_full(filename=filename, gene=gene)
 
     def _predict(X):
@@ -112,7 +112,7 @@ def shap(clf, gene, filename="raw/nn_data.csv"):
     return shap_values[0]
 
 
-def predict(clf, filename="raw/nn_data.csv"):
+def predict(clf, filename="raw/data.csv"):
     X, _ = get_data_full(filename=filename)
 
     def _predict(X):

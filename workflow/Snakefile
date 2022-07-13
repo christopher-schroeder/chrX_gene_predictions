@@ -31,7 +31,7 @@ rule table:
 rule shap_top:
     input:
         models=expand("results/model/{c}.pkl", c=config["TopClassifier"]),
-        raw="raw/nn_data.csv"
+        raw="raw/data.csv"
     output:
         plot="results/shap/{gene}.pdf",
         values="results/shap/{gene}.tsv"
@@ -57,7 +57,7 @@ rule importance:
 
 rule plot_chromosones_top:
     input:
-        raw="raw/nn_data.csv",
+        raw="raw/data.csv",
         prediction="results/final_prediction/prediction.tsv"
     output:
         plot="results/final_prediction/chromosomes.pdf"
@@ -71,7 +71,7 @@ rule plot_chromosones_top:
 
 # rule plot_chromosones_stack:
 #     input:
-#         raw="raw/nn_data.csv",
+#         raw="raw/data.csv",
 #         prediction="results/final_predicton/prediction.tsv"
 #     output:
 #         plot="results/stacked/chromosomes.pdf"
@@ -105,7 +105,7 @@ rule plot_chromosones_top:
 rule predict_top:
     input:
         models=expand("results/model/{c}.pkl", c=config["TopClassifier"]),
-        raw="raw/nn_data.csv"
+        raw="raw/data.csv"
     output:
         prediction="results/prediction/top.tsv"
     conda:
@@ -116,7 +116,7 @@ rule predict_top:
 
 rule plot_chromosomes:
     input:
-        raw="raw/nn_data.csv",
+        raw="raw/data.csv",
         prediction="results/prediction/{c}.tsv"
     output:
         plot="results/plots/chromosomes/{c}.pdf"
@@ -130,7 +130,7 @@ rule plot_chromosomes:
 
 rule finalize_prediction:
     input:
-        raw="raw/nn_data.csv",
+        raw="raw/data.csv",
         predictions=expand("results/prediction/{c}.tsv", c=classifier.keys())
     output:
         final="results/final_prediction/final.tsv",
@@ -144,7 +144,7 @@ rule finalize_prediction:
 # rule predict_reduced:
 #     input:
 #         best_params="results/best_param/{c}.yaml",
-#         raw="raw/nn_data_reduced.csv",
+#         raw="raw/data_reduced.csv",
 #     output:
 #         prediction="results/prediction_reduced/{c}.tsv"
 #     conda:
@@ -156,7 +156,7 @@ rule finalize_prediction:
 rule predict:
     input:
         model="results/model/{c}.pkl",
-        raw="raw/nn_data.csv"
+        raw="raw/data.csv"
     output:
         prediction="results/prediction/{c}.tsv"
     conda:
@@ -168,7 +168,7 @@ rule predict:
 rule train_best:
     input:
         best_params="results/best_param/{c}.yaml",
-        raw="raw/nn_data.csv"
+        raw="raw/data.csv"
     output:
         model="results/model/{c}.pkl"
     conda:
