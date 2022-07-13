@@ -1,0 +1,13 @@
+channels:
+  - bioconda
+  - conda-forge
+  - default
+dependencies:
+  - scikit-learn =1.0.2
+  - pandas =1.4.2
+  - numpy =1.22.3
+  - repackage =0.7.3
+  - plotly =5.8.0
+  - python-kaleido =0.2.1
+  - shap =0.41.0
+  - matplotlib-base =3.5.2

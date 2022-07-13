@@ -1,0 +1,248 @@
+import yaml
+
+with open("config/config.yaml", "r") as stream:
+    config = yaml.safe_load(stream)
+
+with open("config/classifier.yaml", "r") as stream:
+    classifier = yaml.safe_load(stream)
+
+with open("config/shap.yaml", "r") as stream:
+    shap = yaml.safe_load(stream)
+
+wildcard_constraints:
+    c = "|".join(classifier.keys())
+
+rule all:
+    input:
+        # expand("results/importance/{c}.tsv", c=config["TopClassifier"])
+        expand("results/prediction/{c}.tsv", c=classifier.keys()),
+        expand("results/shap/{gene}.pdf", gene=shap["genes"])
+
+rule table:
+    input:
+        mcc="results/scores/mcc.tsv",
+        best_params=expand("results/best_param/{c}.yaml", c=classifier.keys())
+    output:
+        table="results/table/table.tsv"
+    script:
+        "scripts/performance_table.py"
+
+
+rule shap_top:
+    input:
+        models=expand("results/model/{c}.pkl", c=config["TopClassifier"]),
+        raw="raw/nn_data.csv"
+    output:
+        plot="results/shap/{gene}.pdf",
+        values="results/shap/{gene}.tsv"
+    conda:
+        "envs/scikit.yaml"
+    script:
+        "scripts/shap.py"
+
+
+rule importance:
+    input:
+        best_params="results/best_param/{c}.yaml"
+    output:
+        importance="results/importance/{c}.tsv",
+        plot="results/importance/{c}.pdf"
+    params:
+        classifier="{c}"
+    conda:
+        "envs/scikit.yaml"
+    script:
+        "scripts/feature_importance.py"
+
+
+rule plot_chromosones_top:
+    input:
+        raw="raw/nn_data.csv",
+        prediction="results/final_prediction/prediction.tsv"
+    output:
+        plot="results/final_prediction/chromosomes.pdf"
+    params:
+        classifier="Top5"
+    conda:
+        "envs/plot.yaml"
+    script:
+        "scripts/plot_chromosomes_snakemake.py"
+
+
+# rule plot_chromosones_stack:
+#     input:
+#         raw="raw/nn_data.csv",
+#         prediction="results/final_predicton/prediction.tsv"
+#     output:
+#         plot="results/stacked/chromosomes.pdf"
+#     conda:
+#         "envs/plot.yaml"
+#     script:
+#         "scripts/plot_chromosomes_snakemake.py"
+
+
+# rule StackingClassifier:
+#     input:
+#         best_params=expand("results/best_param/{c}.yaml", c=config["TopClassifier"])
+#     output:
+#         prediction="results/stacked/prediction.tsv"
+#     conda:
+#         "envs/scikit.yaml"
+#     script:
+#         "scripts/stack_snakemake.py"
+
+# rule create_top_classifier:
+#     input:
+#         models=expand("results/model/{c}.pkl", c=config["TopClassifier"])
+#     output:
+#         model="results/model/top.pkl"
+#     conda:
+#         "envs/scikit.yaml"
+#     script:
+#         "scripts/combine_classifier.py"
+
+
+rule predict_top:
+    input:
+        models=expand("results/model/{c}.pkl", c=config["TopClassifier"]),
+        raw="raw/nn_data.csv"
+    output:
+        prediction="results/prediction/top.tsv"
+    conda:
+        "envs/scikit.yaml"
+    script:
+        "scripts/predict_top.py"
+
+
+rule plot_chromosomes:
+    input:
+        raw="raw/nn_data.csv",
+        prediction="results/prediction/{c}.tsv"
+    output:
+        plot="results/plots/chromosomes/{c}.pdf"
+    params:
+        classifier="{c}"
+    conda:
+        "envs/plot.yaml"
+    script:
+        "scripts/plot_chromosomes_snakemake.py"
+
+
+rule finalize_prediction:
+    input:
+        raw="raw/nn_data.csv",
+        predictions=expand("results/prediction/{c}.tsv", c=classifier.keys())
+    output:
+        final="results/final_prediction/final.tsv",
+        prediction="results/final_prediction/prediction.tsv"
+    params:
+        top=config["TopClassifier"]
+    script:
+        "scripts/finalize_prediction.py"
+
+
+# rule predict_reduced:
+#     input:
+#         best_params="results/best_param/{c}.yaml",
+#         raw="raw/nn_data_reduced.csv",
+#     output:
+#         prediction="results/prediction_reduced/{c}.tsv"
+#     conda:
+#         "envs/scikit.yaml"
+#     script:
+#         "scripts/predict_snakemake.py"
+
+
+rule predict:
+    input:
+        model="results/model/{c}.pkl",
+        raw="raw/nn_data.csv"
+    output:
+        prediction="results/prediction/{c}.tsv"
+    conda:
+        "envs/scikit.yaml"
+    script:
+        "scripts/predict_snakemake.py"
+
+
+rule train_best:
+    input:
+        best_params="results/best_param/{c}.yaml",
+        raw="raw/nn_data.csv"
+    output:
+        model="results/model/{c}.pkl"
+    conda:
+        "envs/scikit.yaml"
+    script:
+        "scripts/train_best_snakemake.py"
+
+
+rule best_param_space:
+    input:
+        params=lambda wc: expand("results/param_search/{{c}}.{space}.txt", space=classifier[wc.c].get("space", {"space1":{}}).keys())
+    output:
+        yaml="results/best_param/{c}.yaml"
+    params:
+        classifier=lambda wc: classifier[wc.c],
+        name="{c}"
+    script:
+        "scripts/best_params.py"
+
+
+rule param_search:
+    output:
+        params="results/param_search/{c}.{space}.txt"
+    params:
+        config=lambda wc: classifier[wc.c]
+    log:
+        "results/logs/param_search/{c}.{space}.txt"
+    conda:
+        "envs/scikit.yaml"
+    threads:
+        8
+    script:
+        "scripts/param_search.py"
+
+
+rule plot_mcc:
+    input:
+        mcc="results/scores/mcc.tsv"
+    output:
+        pdf="results/plots/mcc.pdf"
+    conda:
+        "envs/plot.yaml"
+    script:
+        "scripts/barplot.py"
+
+
+rule merge_mcc:
+    input:
+        expand("results/nested_cross_validation/{c}.mcc.txt", c=classifier.keys())
+    output:
+        "results/scores/mcc.tsv"
+    shell:
+        "cat {input} > {output}"
+
+
+rule merge_spaces:
+    input:
+        lambda wc: expand("results/nested_cross_validation_space/{{c}}.{space}.mcc.txt", space=classifier[wc.c].get("space", {"space1":{}}).keys())
+    output:
+        "results/nested_cross_validation/{c}.mcc.txt"
+    shell:
+        """cat {input} | grep Matthews | tr ":" "\\t" | sort -k 2 -r | head -n 1 | sed 's/(/\\t/; s/)//; s/ Matthews/\\tMatthews/; s/\\t /\t/' > {output}"""
+
+
+rule classify:
+    output:
+        mcc="results/nested_cross_validation_space/{c}.{space}.mcc.txt"
+    params:
+        config=lambda wc: classifier[wc.c]
+    log:
+        "results/logs/nested_cross_validation_space/{c}.{space}.mcc.txt"
+    conda:
+        "envs/scikit.yaml"
+    threads:
+        72
+    script:
+        "scripts/cross_snakemake.py"
