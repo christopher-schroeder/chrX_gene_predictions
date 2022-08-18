@@ -1,12 +1,1 @@
-{'criterion': ['gini', 'entropy', 'log_loss'], 'splitter': ['best', 'random'], 'min_samples_split': [2, 3, 4], 'min_samples_leaf': [1, 2, 3], 'max_features': ['sqrt', 'log2'], 'min_impurity_decrease': [0.0, 0.1, 0.2], 'ccp_alpha': [0.0, 0.005, 0.01, 0.015, 0.2, 0.025, 0.03, 0.035]}
-DecisionTreeClassifier Matthews Correlation: 0.625 (0.065)
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
+DecisionTreeClassifier	Matthews Correlation: 0.64 (0.05)	0.6585042476654053	0.6386497020721436	0.589997410774231	0.7054420709609985	0.6434773802757263	0.6284942626953125	0.592480480670929	0.7166985869407654	0.6424497961997986	0.5404811501502991

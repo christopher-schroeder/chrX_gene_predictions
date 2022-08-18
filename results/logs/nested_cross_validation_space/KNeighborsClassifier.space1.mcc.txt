@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'leaf_size': [10, 20, 30, 40, 50], 'n_neighbors': [3, 4, 5, 6, 7, 8], 'p': [1, 2, 3]}
 Set method to RandomizedSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  5.8min remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  5.8min finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:  4.9min remaining:  3.3min
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:  7.0min finished

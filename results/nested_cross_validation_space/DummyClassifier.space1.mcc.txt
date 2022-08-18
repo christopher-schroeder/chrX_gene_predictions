@@ -1,12 +1,1 @@
-{'strategy': ['most_frequent', 'prior', 'stratified', 'uniform', 'constant']}
-DummyClassifier Matthews Correlation: -0.023 (0.020)
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
-Fitting 5 folds for each of 5 candidates, totalling 25 fits
+DummyClassifier	Matthews Correlation: -0.02 (0.02)	-0.02082456834614277	-0.04847553372383118	0.0	0.0	-0.044841788709163666	-0.026350688189268112	-0.0509762242436409	-0.03637773171067238	-0.0013180063106119633	0.0

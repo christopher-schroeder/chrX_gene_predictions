@@ -1,12 +1,1 @@
-{'criterion': ['gini', 'entropy', 'log_loss'], 'bootstrap': [True, False], 'class_weight': ['balanced', 'balanced_subsample'], 'ccp_alpha': [0, 0.005, 0.01, 0.015, 0.2, 0.025, 0.03, 0.035]}
-RandomForestClassifier	Matthews Correlation: 0.739 (0.033)
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
-Fitting 5 folds for each of 96 candidates, totalling 480 fits
+RandomForestClassifier	Matthews Correlation: 0.74 (0.03)	0.7572547197341919	0.7581357359886169	0.7394237518310547	0.747941255569458	0.7589763402938843	0.7452495098114014	0.7012661695480347	0.7776492834091187	0.7664290070533752	0.6683183312416077

@@ -2,13 +2,5 @@ loading data
 filling NA
 perform cross validation
 [Parallel(n_jobs=10)]: Using backend LokyBackend with 10 concurrent workers.
-[Parallel(n_jobs=10)]: Done   2 out of  10 | elapsed:    1.2s remaining:    4.8s
-/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:649: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 98 iterations, i.e. alpha=3.750e-03, with an active set of 75 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
-  warnings.warn(
-/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:649: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 98 iterations, i.e. alpha=3.600e-03, with an active set of 75 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
-  warnings.warn(
-/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:649: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 118 iterations, i.e. alpha=9.520e-01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
-  warnings.warn(
-/home/schroeder/miniconda3/envs/gene_discovery/lib/python3.10/site-packages/sklearn/linear_model/_least_angle.py:649: ConvergenceWarning: Regressors in active set degenerate. Dropping a regressor, after 118 iterations, i.e. alpha=8.422e-01, with an active set of 81 regressors, and the smallest cholesky pivot element being 2.220e-16. Reduce max_iter or increase eps parameters.
-  warnings.warn(
-[Parallel(n_jobs=10)]: Done  10 out of  10 | elapsed:    1.6s finished
+[Parallel(n_jobs=10)]: Done   2 out of  10 | elapsed:    0.9s remaining:    3.4s
+[Parallel(n_jobs=10)]: Done  10 out of  10 | elapsed:    1.3s finished

@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'dual': [True, False], 'intercept_scaling': [0.5, 1, 1.5], 'loss': ['squared_hinge'], 'penalty': ['l2']}
 Set method to GridSearchCV
 [Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
-[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:   11.5s remaining:    7.6s
-[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:   15.3s finished
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:   10.5s remaining:    7.0s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:   13.8s finished

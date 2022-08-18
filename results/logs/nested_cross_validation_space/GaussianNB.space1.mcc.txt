@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'var_smoothing': [1e-10, 1e-09, 1e-08, 1e-07]}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:    3.4s remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:    3.4s finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:    0.9s remaining:    0.6s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:    1.0s finished

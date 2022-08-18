@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'algorithm': ['SAMME', 'SAMME.R'], 'learning_rate': [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75]}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   35.9s remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   35.9s finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:   16.4s remaining:   10.9s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:   25.9s finished

@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'C': [0.5, 1, 2, 3], 'decision_function_shape': ['ovo', 'ovr'], 'gamma': ['scale', 'auto'], 'shrinking': [True, False]}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   52.5s remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   52.5s finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:   20.1s remaining:   13.4s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:   26.9s finished

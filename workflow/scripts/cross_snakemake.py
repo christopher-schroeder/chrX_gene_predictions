@@ -2,6 +2,7 @@ import sys
 import importlib
 from nested_cross import cross_validation
 from contextlib import contextmanager
+from numpy import nanmean, nanstd
 
 @contextmanager
 def custom_redirection(fileobj):
@@ -31,7 +32,8 @@ clf = classifier_class(**init_parameter)
 
 with open(str(snakemake.log), "w") as log:
     with custom_redirection(log):
-        mean_score, std_score = cross_validation(clf, label=label, fill_na=True, space=space)
+        scores = cross_validation(clf, label=label, fill_na=True, space=space)
+        mean_score, std_score = nanmean(scores), nanstd(scores)
 
 with open(snakemake.output.mcc, "w") as o:
-    print(label, "Matthews Correlation: %.2f (%.2f)" % (mean_score, std_score), file=o)
+    print(label, "Matthews Correlation: %.2f (%.2f)" % (mean_score, std_score), *scores, sep="\t", file=o)

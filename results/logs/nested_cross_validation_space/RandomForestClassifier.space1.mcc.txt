@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'bootstrap': [True, False], 'ccp_alpha': [0, 0.005, 0.01, 0.015, 0.2, 0.025, 0.03, 0.035], 'class_weight': ['balanced', 'balanced_subsample'], 'criterion': ['gini', 'entropy', 'log_loss']}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  6.5min remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:  6.5min finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:  2.5min remaining:  1.7min
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:  4.0min finished

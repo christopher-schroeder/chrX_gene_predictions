@@ -1,12 +1,1 @@
-{'alpha_1': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'alpha_2': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'lambda_1': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'lambda_2': [1e-07, 1e-06, 1e-05, 0.0001, 0.001]}
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-ARDRegression Matthews Correlation: 0.674 (0.035)
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
+ARDRegression	Matthews Correlation: 0.67 (0.04)	0.7023809523782064	0.7178867636023459	0.6787455233609357	0.6954052541993645	0.7106087449419156	0.6314446355803874	0.631974921536392	0.6965940640856046	0.6540994100773759	0.6163863744654585

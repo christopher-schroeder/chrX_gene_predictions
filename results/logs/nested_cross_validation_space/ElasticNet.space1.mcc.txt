@@ -3,5 +3,5 @@ filling NA
 {'alpha': [0.0625, 0.25, 1, 4, 16, 64, 256, 1024], 'l1_ratio': [0.1, 0.25, 0.5, 0.75, 1], 'selection': ['cyclic', 'random']}
 Set method to GridSearchCV
 [Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
-[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:    4.5s remaining:    3.0s
-[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:    7.0s finished
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:    4.8s remaining:    3.2s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:    6.7s finished

@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'C': [1, 4, 16, 64, 256, 1024], 'loss': ['hinge', 'squared_hinge']}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:    5.4s remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:    5.4s finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed:    2.5s remaining:    1.7s
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed:    3.1s finished

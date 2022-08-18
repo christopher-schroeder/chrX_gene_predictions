@@ -1,12 +1,1 @@
-{'alpha_1': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'alpha_2': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'lambda_1': [1e-07, 1e-06, 1e-05, 0.0001, 0.001], 'lambda_2': [1e-07, 1e-06, 1e-05, 0.0001, 0.001]}
-BayesianRidge Matthews Correlation: 0.673 (0.029)
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
-Fitting 5 folds for each of 100 candidates, totalling 500 fits
+BayesianRidge	Matthews Correlation: 0.67 (0.03)	0.6796595027576436	0.689550462660758	0.6661179769528237	0.6943037846562283	0.7106087449419156	0.6484126308240342	0.6437274316319277	0.7079897928410426	0.6708387307166379	0.6163863744654585

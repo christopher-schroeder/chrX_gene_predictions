@@ -1,12 +1,1 @@
-{'penalty': ['l1', 'l2', 'elasticnet', None], 'alpha': [0.0001, 0.0001, 0.001, 0.01], 'class_weight': [None, 'balanced']}
-Perceptron	Matthews Correlation: 0.525 (0.108)
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
-Fitting 5 folds for each of 32 candidates, totalling 160 fits
+Perceptron	Matthews Correlation: 0.53 (0.11)	0.5789533853530884	0.32968610525131226	0.5598828792572021	0.6604763865470886	0.501893162727356	0.5343760848045349	0.6059972643852234	0.32380038499832153	0.6158369779586792	0.5438430309295654

@@ -1,6 +1,7 @@
 loading data
 filling NA
+{'max_subpopulation': [100000, 10000, 1000, 100]}
 Set method to GridSearchCV
-[Parallel(n_jobs=-1)]: Using backend LokyBackend with 72 concurrent workers.
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 45.6min remaining:    0.0s
-[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed: 45.6min finished
+[Parallel(n_jobs=8)]: Using backend LokyBackend with 8 concurrent workers.
+[Parallel(n_jobs=8)]: Done   6 out of  10 | elapsed: 42.3min remaining: 28.2min
+[Parallel(n_jobs=8)]: Done  10 out of  10 | elapsed: 69.0min finished

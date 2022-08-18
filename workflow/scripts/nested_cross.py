@@ -8,14 +8,14 @@ from numpy import mean, std
 from sklearn.model_selection import cross_val_score, cross_validate, KFold, GridSearchCV, RandomizedSearchCV
 from sklearn import preprocessing
 from sklearn.metrics import make_scorer
-from common import Data, matthews_correlation
+from common import matthews_correlation
 import pandas as pd
 import sys
 from math import prod
 
 score = make_scorer(matthews_correlation, greater_is_better=True)
 
-def get_data(filename="raw/nn_data.csv", fill_na=True):
+def get_data(filename="raw/data.csv", fill_na=True):
     print("loading data", file=sys.stderr)
     seed = 1094795585
     np.random.seed(seed)
@@ -50,7 +50,8 @@ def cross_validation(model, space={}, label="", fill_na=True):
         scores = simple_cross_validation(model, fill_na=fill_na)
     else:
         scores = nested_cross_validation(model, space)
-    print(label, "Matthews Correlation: %.3f (%.3f)" % (mean(scores), std(scores)))
+    return scores
+    # print(label, "Matthews Correlation: %.3f (%.3f)" % (mean(scores), std(scores)))
 
 
 def simple_cross_validation(model, fill_na=True):

@@ -1,12 +1,1 @@
-{'multi_class': ['one_vs_rest', 'one_vs_one']}
-GaussianProcessClassifier Matthews Correlation: 0.683 (0.037)
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
-Fitting 5 folds for each of 2 candidates, totalling 10 fits
+GaussianProcessClassifier	Matthews Correlation: 0.68 (0.04)	0.6830899119377136	0.6667776703834534	0.6676262617111206	0.7250097990036011	0.7292880415916443	0.631219744682312	0.6606242656707764	0.7195935845375061	0.7197148203849792	0.6220739483833313
