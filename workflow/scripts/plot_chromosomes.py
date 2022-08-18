@@ -125,3 +125,5 @@ def plot_sensitivity(df, prediction, filename, classifier=""):
     )
     # fig.update_xaxes(ticktext=chromosomes)
     fig.write_image(filename)
+
+    return chromosomes, precision, sensitivity, text_precision, text_sensitivity

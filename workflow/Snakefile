@@ -15,8 +15,9 @@ wildcard_constraints:
 rule all:
     input:
         # expand("results/importance/{c}.tsv", c=config["TopClassifier"])
-        expand("results/prediction/{c}.tsv", c=classifier.keys()),
-        expand("results/shap/{gene}.pdf", gene=shap["genes"])
+        # expand("results/prediction/{c}.tsv", c=classifier.keys()),
+        # expand("results/shap/{gene}.pdf", gene=shap["genes"])
+        expand("results/tables/chromosomes/{c}.tsv", c=classifier.keys()),
 
 rule table:
     input:
@@ -119,7 +120,8 @@ rule plot_chromosomes:
         raw="raw/data.csv",
         prediction="results/prediction/{c}.tsv"
     output:
-        plot="results/plots/chromosomes/{c}.pdf"
+        plot="results/plots/chromosomes/{c}.pdf",
+        table="results/tables/chromosomes/{c}.tsv",
     params:
         classifier="{c}"
     conda:
